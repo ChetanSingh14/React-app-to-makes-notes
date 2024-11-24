@@ -129,7 +129,7 @@ export default function Displaynotes() {
                     <div className={styles.content}>
                     <form onSubmit={handleSubmit}>
                      
-                        <textarea  rows= {20} cols={70} className={styles.notes1} type="text" id="notes" value={notes} onChange={handlechange} style={{ fontWeight: bold ? "bold" : "normal", fontStyle: italic ? "italic" : "normal", textDecoration: underline ? "underline" : "none", textAlignLast: centre ? "center" : "left" }}
+                        <textarea  rows= {20} cols={60} className={styles.notes1} type="text" id="notes" value={notes} onChange={handlechange} style={{ fontWeight: bold ? "bold" : "normal", fontStyle: italic ? "italic" : "normal", textDecoration: underline ? "underline" : "none", textAlignLast: centre ? "center" : "left" }}
             ></textarea>
                         <button type='submit'>Save</button>
                     </form>
